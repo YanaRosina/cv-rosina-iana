@@ -1,0 +1,105 @@
+.intro 
+    max-width: 1440px
+    width: 100%
+    margin: 0 auto
+    position: relative
+    margin-top: 0px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    flex-direction: row
+    z-index: 2
+
+    .photo 
+        width: 20%
+        min-width: 280px 
+
+    .big-text
+        display: none
+        
+
+    .intro-info 
+        width: 50% 
+
+        .phone_photo
+            display: none
+
+        .contacts
+            display: none
+
+
+        .intro-text 
+            font-size: 20px
+            margin: 0 10px 0 40px
+            line-height: 1.7
+
+            
+        h1 
+            font-size: 96px
+            font-family: "Caveat", cursive
+
+
+
+    
+    @media screen and (max-width: 1134px)
+        h1
+        font-size: 64px 
+
+    @media screen and (max-width: 876px)
+        .photo
+            width: 20%
+            min-width: 200px   
+        .intro-info
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            height: 200px
+            h1
+                font-size: 46px
+            .contacts
+                display: flex
+                flex-direction: column
+                justify-content: flex-end
+
+
+            .intro-text
+                display: none
+        .big-text
+            display: block
+            width: 100%
+            font-size: 20px
+            margin: 10px 50px
+            line-height: 1.7
+
+    
+    @media screen and (max-width: 629px)
+        
+        .photo
+            display: none
+        .intro-info 
+            width: 100% 
+            justify-content: center
+            height: auto
+            font-size: 16px
+
+            h1
+                text-align: center
+            
+            .phone_photo
+                display: flex
+                justify-content: center
+                width: 100%
+                padding-right: 30px
+
+            .text
+                font-size: 16px
+                padding-top: 5px
+
+        .big-text
+            font-size: 16px
+            margin: 10px 30px
+                
+                    
+
+

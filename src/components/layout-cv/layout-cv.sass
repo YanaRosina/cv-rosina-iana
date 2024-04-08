@@ -1,0 +1,49 @@
+$pink-color: #FFDDD9
+$blue-color: #395880
+
+$ratio: 1
+=triangle ($ratio,$right, $left)
+	border-top: (275.5px * $ratio) solid transparent
+	border-right: ((402.6px *$ratio)*$right) solid $blue-color
+	border-left: ((402.6px *$ratio)*$left) solid $pink-color
+	border-bottom: (275.5px * $ratio) solid transparent
+
+.layout 
+	z-index: 1
+	
+	.rectangle-top 
+		width: 20%
+		height: 40px
+		background: $pink-color
+		position: absolute
+		top: 0
+		left: 20%
+
+	.triangle-left 
+		width: 0
+		height: 0
+		+triangle(1, 1, 0)
+		position: absolute
+		top: 0
+		right: 0
+		@media screen and (max-width: 876px)
+			+triangle(0.6, 1, 0)
+
+
+	.triangle-right 
+		width: 0
+		height: 0
+		+triangle(1.5, 0, 1)
+		position: absolute
+		top: 500px
+		left: 0
+
+	// .rectangle-bottom  
+	// 	width: 359px
+	// 	height: 47px
+	// 	background: $blue-color
+
+  		
+  		
+		
+

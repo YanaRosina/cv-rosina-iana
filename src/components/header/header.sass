@@ -1,0 +1,40 @@
+$wavy-color : #0052B4
+.menu 
+    position: relative
+    max-width: 100% 
+    z-index: 3
+    margin-right: 100px
+
+    .big_menu, .small_menu 
+        display: flex
+        justify-content: flex-end
+
+
+ 
+        li 
+            margin: 20px 10px
+            font-size: 18px
+            font-weight: 500
+
+        &:hover 
+            cursor: pointer
+
+        .active 
+            text-decoration: underline
+            text-decoration-style: wavy
+            text-decoration-color: $wavy-color
+            text-underline-offset: 5px
+            text-decoration-thickness: 2px
+
+    .big_menu
+        @media screen and (max-width: 876px)
+            display: none
+
+    .small_menu
+        display: none
+        @media screen and (max-width: 876px)
+            display: flex
+
+    @media screen and (max-width: 629px)
+        margin-right: 65px
+            

@@ -1,0 +1,113 @@
+.expirience
+    display: flex
+    flex-direction: column
+    z-index: 2
+    max-width: 600px
+    width: 50%
+    // padding-top: 30px
+    
+
+    @media screen and (max-width: 1134px)
+        width: 100%
+        max-width: 1134px
+        align-items: center
+        margin-bottom: 100px
+
+    @media screen and (max-width: 876px)
+        padding-top: 0
+        margin-bottom: 10px
+    h2
+        text-underline-offset: 13px
+
+        @media screen and (max-width: 1134px)
+            text-align: center
+   
+
+    .expirience-items
+        background-image: url("../../img/expirience_road.png")
+        background-repeat: no-repeat
+        background-position-y: center
+        background-position-x: left
+        height: 350px
+        display: flex
+        flex-wrap: wrap
+        margin-top: 10px
+        position: relative
+        
+
+        @media screen and (max-width: 1134px)
+            width: 100%
+            max-width: 816px 
+            background-image: url("../../img/expirience_road_2.png")
+            background-position-y: 80px
+            background-position-x:  center
+
+        @media screen and (max-width: 876px)
+
+            background-image: none
+            position: static
+            display: column
+
+
+        .exp-item
+            list-style-type: none
+            display: flex
+            flex-direction: column
+            width: 100%
+            
+            
+            
+            .exp-title
+                font-weight: bold
+                font-size: 24px
+                font-family: "Caveat", cursive
+                max-width: 210px
+                padding-bottom: 8px
+                @media screen and (max-width: 876px)
+                    max-width: 100%    
+
+            .exp-organization
+                font-size: 15px
+                max-width: 155px
+                @media screen and (max-width: 876px)
+                    max-width: 100%   
+
+            .exp-date
+                font-size: 16px
+                color: #0052B4
+                max-width: 250px
+
+        .exp1 
+            position: absolute
+            bottom: -30px
+            left: -25px
+            
+
+            @media screen and (max-width: 1134px)
+                bottom: -50px
+                left: 100px
+
+            @media screen and (max-width: 876px)
+                position: static
+
+        .exp2
+            position: absolute
+            left: 100px
+            top: 50px
+
+            @media screen and (max-width: 1134px)
+                left: 300px
+                top: 50px
+            @media screen and (max-width: 876px)
+                position: static
+
+        .exp3
+            position: absolute
+            bottom: 100px
+            left: 330px
+
+            @media screen and (max-width: 1134px)
+                left: 550px
+                top: 150px
+            @media screen and (max-width: 876px)
+                position: static
