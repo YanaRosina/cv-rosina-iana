@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cv-rosina-iana/static/css/main.47526830.css",
+    "main.js": "/cv-rosina-iana/static/js/main.09238bd9.js",
+    "static/media/photo.png": "/cv-rosina-iana/static/media/photo.35ec4d189100b1c1c014.png",
+    "static/media/phone_main_photo.png": "/cv-rosina-iana/static/media/phone_main_photo.c85a03d6161d1cf4bf4f.png",
+    "static/media/expirience_road_2.png": "/cv-rosina-iana/static/media/expirience_road_2.2e0752287e6f1187ada4.png",
+    "static/media/exp_point.svg": "/cv-rosina-iana/static/media/exp_point.005935d5bca76d35478c.svg",
+    "index.html": "/cv-rosina-iana/index.html",
+    "static/media/star.svg": "/cv-rosina-iana/static/media/star.1a01420a9a7747a013e7.svg",
+    "static/media/elipse.svg": "/cv-rosina-iana/static/media/elipse.54ebd2ea8abdbf02a6ef.svg",
+    "main.47526830.css.map": "/cv-rosina-iana/static/css/main.47526830.css.map",
+    "main.09238bd9.js.map": "/cv-rosina-iana/static/js/main.09238bd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47526830.css",
+    "static/js/main.09238bd9.js"
+  ]
+}
