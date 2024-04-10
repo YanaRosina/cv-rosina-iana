@@ -9,8 +9,6 @@ $wavy-color : #0052B4
         display: flex
         justify-content: flex-end
 
-
- 
         li 
             margin: 20px 10px
             font-size: 18px
@@ -26,15 +24,22 @@ $wavy-color : #0052B4
             text-underline-offset: 5px
             text-decoration-thickness: 2px
 
-    .big_menu
-        @media screen and (max-width: 876px)
-            display: none
-
     .small_menu
         display: none
-        @media screen and (max-width: 876px)
+
+    @media screen and (max-width: 876px)
+        .small_menu
             display: flex
+        .big_menu
+            display: none 
+
+
+
+
 
     @media screen and (max-width: 629px)
         margin-right: 65px
+
+
+
             

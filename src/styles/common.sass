@@ -11,10 +11,10 @@ $wavy-color : #0052B4
     font-size: 20px
     
 
-    
 
 body 
     font-family: "Open Sans", sans-serif
+    overflow-x: hidden 
 
     span 
         font-weight: 600
@@ -54,8 +54,6 @@ body
         text-decoration-thickness: 3px
         z-index: 3
 
-        @media screen and (max-width: 629px)
-            font-size: 36px
 
     .blocks-layout
         max-width: 1350px
@@ -67,12 +65,6 @@ body
         align-items: center
         flex-direction: row
         margin: 0 auto
-
-        
-
-        @media screen and (max-width: 1134px)
-            padding: 0 30px
-            
 
         ul 
             list-style-type: none
@@ -86,28 +78,52 @@ body
             .cours-list .cours-item
                 +list-icon(url("../img/elipse.svg"), center, 1.2rem)
                 line-height: 1.7
-                @media screen and (max-width: 629px)  
-                    font-size: 16px
 
         .expirience-items .exp-item
             +list-icon(none, 0, 0)
-            @media screen and (max-width: 876px)
-                +list-icon(url("../img/exp_point.svg"), 3px, 1.6rem)
 
-    .skills
-        @media screen and (max-width: 1134px)
+
+
+    @media screen and (max-width: 1134px)
+        .blocks-layout
+            padding: 0 30px
+        
+        .skills
             flex-direction: row-reverse
             margin-top: 40px
 
-        @media screen and (max-width: 876px)
+        .last
+            flex-wrap: wrap 
+
+
+
+
+    @media screen and (max-width: 876px)
+        .expirience-items .exp-item
+            +list-icon(url("../img/exp_point.svg"), 3px, 1.6rem)
+
+        .skills
             flex-wrap: wrap
             justify-content: center
 
-    .last
-        @media screen and (max-width: 1134px)
-            flex-wrap: wrap
+        .first
+            justify-content: center
 
-    .first
-        @media screen and (max-width: 876px)
-          justify-content: center
-          
+            
+
+
+    @media screen and (max-width: 629px)
+        h2
+            font-size: 36px
+
+        .cours-list .cours-item
+            font-size: 16px
+
+        .first
+            padding: 0 0 
+
+        
+
+
+
+

@@ -11,14 +11,6 @@ $level-color: #0052B4
     padding-top: 100px
     width: 60%
 
-    @media screen and (max-width: 1134px)
-        padding-left: 0
-        padding-top: 0
-        margin-right: 0
-    @media screen and (max-width: 629px)
-        padding-top: 10px
-        width: 100%
-
     h2
         text-underline-offset: 15px
         text-align: center
@@ -31,7 +23,6 @@ $level-color: #0052B4
         margin: 5px 0
         z-index: 3
         
-
         .lang-item
             width: 30%
             display: flex
@@ -39,22 +30,38 @@ $level-color: #0052B4
             text-align: center
             @media screen and (max-width: 629px)
                 margin-right: 10px
-                
 
             .lang-name
                 font-family: $font-stack
                 font-size: 36px
                 font-weight: 500
-                @media screen and (max-width: 629px)
-                    font-size: 26px
                 @media screen and (max-width: 876px)
-                    font-size: 32px
+                    font-size: 30px
+                @media screen and (max-width: 629px)
+                    font-size: 28px
 
             .lang-level
                font-size: 16px
                color: $level-color
                text-align: center
                @media screen and (max-width: 629px)
-                    font-size: 15px
+                font-size: 15px
+
+
+    @media screen and (max-width: 1134px)
+        padding-left: 0
+        padding-top: 0
+        margin-right: 0
+
+    @media screen and (max-width: 629px)
+        padding-top: 10px
+        width: 100%
+
+
+
+
+
+
+    
 
 
