@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-rosina-iana/static/css/main.b1caa8cc.css",
+    "main.css": "/cv-rosina-iana/static/css/main.2409369b.css",
     "main.js": "/cv-rosina-iana/static/js/main.09238bd9.js",
     "static/media/photo.png": "/cv-rosina-iana/static/media/photo.35ec4d189100b1c1c014.png",
     "static/media/phone_main_photo.png": "/cv-rosina-iana/static/media/phone_main_photo.c85a03d6161d1cf4bf4f.png",
@@ -9,11 +9,11 @@
     "index.html": "/cv-rosina-iana/index.html",
     "static/media/star.svg": "/cv-rosina-iana/static/media/star.1a01420a9a7747a013e7.svg",
     "static/media/elipse.svg": "/cv-rosina-iana/static/media/elipse.54ebd2ea8abdbf02a6ef.svg",
-    "main.b1caa8cc.css.map": "/cv-rosina-iana/static/css/main.b1caa8cc.css.map",
+    "main.2409369b.css.map": "/cv-rosina-iana/static/css/main.2409369b.css.map",
     "main.09238bd9.js.map": "/cv-rosina-iana/static/js/main.09238bd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1caa8cc.css",
+    "static/css/main.2409369b.css",
     "static/js/main.09238bd9.js"
   ]
 }
