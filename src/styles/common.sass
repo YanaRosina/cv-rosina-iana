@@ -9,7 +9,8 @@ $wavy-color : #0052B4
     background-repeat: no-repeat
     margin-top: 10px
     font-size: 20px
-    
+
+
 
 
 body 
@@ -26,7 +27,7 @@ body
         flex-wrap: wrap
         margin: 5px 0
         z-index: 3
-        
+
 
         .title
             width: 30%
@@ -54,6 +55,8 @@ body
         text-decoration-thickness: 3px
         z-index: 3
 
+        @media screen and (max-width: 629px)
+            font-size: 36px
 
     .blocks-layout
         max-width: 1350px
@@ -66,9 +69,15 @@ body
         flex-direction: row
         margin: 0 auto
 
+
+
+        @media screen and (max-width: 1134px)
+            padding: 0 30px
+
+
         ul 
             list-style-type: none
-            
+
         ul li
             +list-icon(url("../img/star.svg"), 0, 1.6rem)
 
@@ -78,49 +87,30 @@ body
             .cours-list .cours-item
                 +list-icon(url("../img/elipse.svg"), center, 1.2rem)
                 line-height: 1.7
+                @media screen and (max-width: 629px)  
+                    font-size: 16px
 
         .expirience-items .exp-item
             +list-icon(none, 0, 0)
+            @media screen and (max-width: 876px)
+                +list-icon(url("../img/exp_point.svg"), 3px, 1.6rem)
 
-
-
-    @media screen and (max-width: 1134px)
-        .blocks-layout
-            padding: 0 30px
-        
-        .skills
+    .skills
+        @media screen and (max-width: 1134px)
             flex-direction: row-reverse
             margin-top: 40px
 
-        .last
-            flex-wrap: wrap 
-
-
-
-
-    @media screen and (max-width: 876px)
-        .expirience-items .exp-item
-            +list-icon(url("../img/exp_point.svg"), 3px, 1.6rem)
-
-        .skills
+        @media screen and (max-width: 876px)
             flex-wrap: wrap
             justify-content: center
 
-        .first
-            justify-content: center
+    .last
+        @media screen and (max-width: 1134px)
+            flex-wrap: wrap
 
-            
-
-
-    @media screen and (max-width: 629px)
-        h2
-            font-size: 36px
-
-        .cours-list .cours-item
-            font-size: 16px
-
-        .first
-            padding: 0 0 
+    .first
+        @media screen and (max-width: 876px)
+          justify-content: center
 
         
 
